@@ -18,16 +18,23 @@ A simple yet powerful real-time face and eye detection app built with OpenCV and
 
 1. Clone the repository:
    git clone https://github.com/mathyasg/openCV_real-time_face_detection
+
+   
    cd opencv_real-time_face_detection
 
-2. Install dependencies:
+3. Install dependencies:
+
+   
 	pip install -r requirements.txt
+
+
 	Make sure the two .xml files are in the folder (they are already included in this repo).
 
 🎮 How to Use
 
 Run the script:
-	python face_detector.py
+
+    python face_detector.py
 	
 	Keyboard Controls
 		q → Quit
@@ -37,7 +44,8 @@ Run the script:
 
 
 📁 Project Structure
-	openCV_real-time_face_detection/
+
+    openCV_real-time_face_detection
     	├── face_detector.py
     	├── haarcascade_frontalface_default.xml
     	├── haarcascade_eye.xml
@@ -46,8 +54,10 @@ Run the script:
     	└── .gitignore
 
 🤝 Contributing
+
 	Feel free to open issues or pull requests!
 	Ideas for improvements: add smile detection, age/gender estimation, or switch to DNN model.
 
 📄 License
-	This project is open-source under the MIT License.
+    
+    This project is open-source under the MIT License.
