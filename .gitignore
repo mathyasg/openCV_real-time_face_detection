@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.jpg
+*.png
+# Ignore captured images (they will be generated at runtime)
+face_detection_*.jpg
+detected_face_*.jpg
